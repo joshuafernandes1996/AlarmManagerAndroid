@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/clock"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_alignParentBottom="true"
@@ -25,4 +25,35 @@
         android:layout_marginTop="81dp"
         android:text="Click Clock to Set Alarm Time"
         android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/alarmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:text="Alarm Set for time:" />
+
+    <TextView
+        android:id="@+id/timetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Please Pick a Time"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Cancel Alarm" />
 </RelativeLayout>
